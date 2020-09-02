@@ -1,0 +1,28 @@
+.service__card{
+  border: 1px solid #2e344e;
+  border-top: 5px solid #2e344e;
+  padding:50px 30px;
+  background: #191d2b;
+  width: 31%;
+  cursor: pointer;
+  transition: border-top-color 300ms ease-in-out;
+  &:hover{
+    border-top-color: #0C76AA;
+  }
+  .service__icon{
+    margin-bottom: 15px;
+    svg{
+      color: #0C76AA;
+      font-size: 32px;
+    }
+  }
+  .service__heading{
+    h3{
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+  }
+
+}

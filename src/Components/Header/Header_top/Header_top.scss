@@ -1,0 +1,55 @@
+.avatar{
+    a{
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        overflow: hidden;
+        margin: auto;
+        border: 8px solid #2e344e;
+        box-shadow: 0 0 0 0 rgba(46, 52, 78, 1);
+        animation: pulse 2s infinite;
+        &:hover{
+            animation:none
+        }
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+.user__info{
+    h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin: 15px 0 10px 0;
+        color: #747da2;
+        font-weight: 400;
+        letter-spacing: 4px;
+        text-transform: lowercase;
+    }
+    span{
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        display: block;
+        color: #747da2;
+        text-transform: lowercase;
+    }
+}
+
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(46, 52, 78, 0.8);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(46, 52, 78, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(46, 52, 78, 0);
+	}
+}
